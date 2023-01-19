@@ -76,6 +76,7 @@ displayHelpTexts() { # (it will manually detect your git data and prompt for the
 # Function that writes and parses variables to write the new generated README.md file
 writeREADME() {
   PROJECT_NAME_PARSED=${PROJECT_NAME/-/ }
+  CURRENT_YEAR=$(date '+%Y')
   bash -c "NEW_USERNAME='NEW_USERNAME' PROJECT_NAME='PROJECT_NAME' PROJECT_TYPE='PROJECT_TYPE'; cat << EOF > README.md
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
@@ -84,7 +85,7 @@ writeREADME() {
 <div align=\"center\">
   <!-- Change your logo -->
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME\">
-    <img width=\"100%\" src=\"https://i.imgur.com/SVvgxJF.png\" alt=\"@$NEW_USERNAME/$PROJECT_NAME's logo\">
+    <img width=\"100%\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg\" alt=\"@$NEW_USERNAME/$PROJECT_NAME's logo\">
   </a>
   <br>
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues\">
@@ -93,99 +94,102 @@ writeREADME() {
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/pulls\">
     <img src=\"https://img.shields.io/github/issues-pr/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\"  alt=\"$NEW_USERNAME/$PROJECT_NAME's pull requests\"/>
   </a>
+  <a href=\"#\">
+    <img src=\"https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess\" alt=\"$NEW_USERNAME/$PROJECT_NAME\">
+     </a>
+    <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues\">
+      <img src=\"https://img.shields.io/github/issues/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\" alt=\"$NEW_USERNAME/$PROJECT_NAME issues\"/>
+    </a>
+    <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/pulls\">
+      <img src=\"https://img.shields.io/github/issues-pr/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github\"  alt=\"$NEW_USERNAME/$PROJECT_NAMEpulls pull requests\"/>
+    </a>
+    <a href=\"https://case.mikekonin.com/$PROJECT_NAME/\">
+         <img src=\"https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important\" alt=\"$NEW_USERNAME/$PROJECT_NAME link to live demo.\">
+    </a>
+    <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/generate\">
+      <img src=\"https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green\" alt=\"$NEW_USERNAME/$PROJECT_NAME create fork\">
+    </a>
 </div>
 
----
+<br />
 
-## 🤔 **About the project**
+# **About heading**
 
 * <!-- ... [WHY DID YOU CREATED THIS PROJECT?, MOTIVATION, PURPOSE, DESCRIPTION, OBJECTIVES, etc] -->
 
----
+<br />
 
-## ⚡ **Installation**
+## Request features ⚡
+>Use [issue](https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues) and follow the rules :)
 
-* <!-- ... [SHOW HOW YOUR PROJECT IS INSTALLED] -->
+## Report bug 🤬
+>The data from repository is provided an 'As is', without any guarantees. All the data provided is used at your own risk.
+**If you want report a bug** - use [issue](https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues)
 
----
+<br />
 
-## 🚀 **Usage**
+![project screenshot first](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg)
+![[project screenshot second](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpgg)
 
-* <!-- ... [SHOW HOW YOUR PROJECT IS USED] -->
+<br /><br />
 
----
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icons/menu.png\" width=\"50px\" />
 
-## 🌲 **Project tree**
+## TABLE OF CONTENTS
 
-<!-- ... [SHOW YOUR PROJECT TREE HERE IF USEFUL] -->
+- [General](#what-is-this-template-all-about)
+    - [Request feature](#request-features-)
+- [Quick start](#quick-start)
+    - [Requirements](#requirements)
+    - [Report a bug](#disclamer--%EF%B8%8F)
+- [Contributing](#contributors)
+- [Buy Me A Coffee](#buy-me-a-coffee)
+- [License and Changelog](#license-and-changelog)
 
----
+<br /><br />
 
-## 📝 **Additional notes**
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/contributors.png\" width=\"50px\" />
 
-* <!-- ... [ADD ADDITIONAL NOTES] -->
+## Contributors
+I am <3 contributions big or small. If you help my project --> 🍰**link to your profile will be here**🍰.
 
----
-
-## 📸 **Screenshots**
-
-<!-- ... [SOME DESCRIPTIVE IMAGES] -->
-
----
-
-## 🍰 **Supporters and donators**
-
-<!-- Change your small logo -->
-<a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME_PARSED\">
-  <img alt=\"@$NEW_USERNAME/$PROJECT_NAME_PARSED's brand logo without text\" align=\"right\" src=\"https://i.imgur.com/3qK1sie.png\" width=\"18%\" />
+<a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/graphs/contributors\">
+  <img src=\"https://contrib.rocks/image?repo=$NEW_USERNAME/$PROJECT_NAME\" />
 </a>
 
+<br /><br />
 
-We are currently looking for new donators to help and maintain this project! ❤️
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/coffee.png\" width=\"50px\" />
 
-By donating, you will help the development of this project, and *you will be featured in this $PROJECT_NAME's README.md*, so everyone can see your kindness and visit your content ⭐.
-
-<a href=\"https://github.com/sponsors/$NEW_USERNAME\"> <!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-  <img src=\"https://img.shields.io/badge/Sponsor-$NEW_USERNAME/$PROJECT_NAME_PARSED-blue?logo=github-sponsors&style=for-the-badge&color=red\">
+## Buy Me A Coffee
+<a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/generate\">
+  <img alt=\"@koninmikhail/Social Analytics Dashboard Template Author brand logo without text\" align=\"right\" src=\"https://raw.githubusercontent.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/logo.png\" width=\"25%\" />
 </a>
 
-<!-- LINK TO YOUR DONATING PAGES HERE -->
+Currently I'm seeking for new sponsors to help maintain this project! ❤️
 
----
+With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
-$PROJECT_NAME was generated from *[KoninMikhail/github-repo-template](https://github.com/KoninMikhail/github-repo-template)* 📚
+<a href=\"https://yoomoney.ru/to/410011749810070\">
+  <img src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/sponsor.svg\">
+</a>
 
----
+#### OR CLICK BUTTON
 
-## 🕵️ Extra recommendations
+[![GitHub followers](https://img.shields.io/github/followers/koninmikhail.svg?style=social)](https://github.com/koninmikhail)
+[![GitHub stars](https://img.shields.io/github/stars/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/network/members)
 
-* <!-- If you recommend installing anything special, or if you recommend using X thing for the good use of your project...-->
+<br /><br />
 
----
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/law.png\" width=\"50px\" />
 
-## 🎉 Was the $PROJECT_TYPE helpful? Help us raise these numbers up
+## **License and Changelog**
 
-[![GitHub followers](https://img.shields.io/github/followers/$NEW_USERNAME.svg?style=social)](https://github.com/$NEW_USERNAME)
-[![GitHub stars](https://img.shields.io/github/stars/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/$NEW_USERNAME/$PROJECT_NAME.svg?style=social)](https://github.com/$NEW_USERNAME/$PROJECT_NAME/network/members)
-<!-- MODIFY THIS LINK TO YOUR MAIN DONATING SITE IF YOU ARE NOT IN THE GITHUB SPONSORS PROGRAM -->
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/$NEW_USERNAME)
-
-Enjoy! 😃
-
----
-
-## ⚖️📝 **License and Changelog**
-
-See the license in the '**[LICENSE](LICENSE)**' file.
-
-Watch the changes in the '**[CHANGELOG.md](CHANGELOG.md)**' file.
-
----
-
-_Made with a lot of ❤️❤️ by **[@$NEW_USERNAME](https://github.com/$NEW_USERNAME)**_
-EOF"
+>Copyright (c) $CURRENT_YEAR, $NEW_USERNAME.
+>This project under **[MIT](LICENSE)** license. See the changes in the **[CHANGELOG.md](CHANGELOG.md)** file.
+"
 }
 
 # Function that writes and parses variables to write the new generated CHANGELOG.md file

@@ -7,6 +7,9 @@
     <img width="100%" src="https://github.com/KoninMikhail/github-repo-template/blob/master/.resources/images/project_image.jpg" alt="@KoninMikhail/project-template's">
   </a>
   <br>
+    <a href="#">
+      <img src="https://img.shields.io/badge/build-alpha-blue?style=for-the-badge&color=critical" alt="@koninmikhail/social-analytics-dashboard-template current release">
+   </a>
   <a href="https://github.com/KoninMikhail/github-repo-template/issues">
     <img src="https://img.shields.io/github/issues/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/project-template's issues"/>
   </a>
@@ -21,9 +24,9 @@
   </a>
 </p>
 
----
+<br />
 
-## 🤔 **What is this template all about?**
+## **What is this template all about?**
 
 * This template can be used as a base layer for any of your future repositories/projects.
 * Make your project easy to maintain with **8 issue templates**.

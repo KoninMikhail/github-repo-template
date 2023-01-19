@@ -11,9 +11,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Added
 
 * `.resources` folder for repo resources files(images, and etc.)
+* icons into resources
 
 ### Changed 
 
 * replaced uri links
 * replaced project image to local url
 * sh test runner to live demo button
+* head section template
+* output template design
