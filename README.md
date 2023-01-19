@@ -16,7 +16,7 @@
   <a href="https://github.com/KoninMikhail/github-repo-template/pulls">
     <img src="https://img.shields.io/github/issues-pr/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/github-repo-template's pull requests"/>
   </a>
-    <a href="https://case.mikekonin.com/social-analytics-dashboard-template/">
+    <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template">
        <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
   <a href="https://github.com/KoninMikhail/github-repo-template/generate">
@@ -26,7 +26,7 @@
 
 <br />
 
-## **What is this template all about?**
+# **What is this template all about?**
 
 * This template can be used as a base layer for any of your future repositories/projects.
 * Make your project easy to maintain with **8 issue templates**.
