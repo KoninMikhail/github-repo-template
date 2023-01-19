@@ -4,16 +4,16 @@
 # PURPOSE:       Secondary (helper) script that is called by the main SETUP_TEMPLATE.sh file to call
 #                some functions and obtain some exported variables to better modularize the code.
 # TITLE:         FUNCTION_HELPERS
-# AUTHOR:        @Josee9988 | Jose Gracia
+# AUTHOR:        @Josee9988 | Jose Gracia, @KoninMikhail | Mike Konin
 # VERSION:       See in CHANGELOG.md
 # NOTES:         This script will auto remove itself, and in case of wanting to run it again, the user must download
 #                it again or do a 'git stash' and revert the changes.
 # BASH_VERSION:  5.1.4(1)-release (x86_64-pc-linux-gnu)
-# LICENSE:       see in ../LICENSE (project root) or https://github.com/Josee9988/project-template/blob/master/LICENSE
-# GITHUB:        https://github.com/Josee9988/
-# REPOSITORY:    https://github.com/Josee9988/project-template
-# ISSUES:        https://github.com/Josee9988/project-template/issues
-# MAIL:          jgracia9988@gmail.com
+# LICENSE:       see in ../LICENSE (project root) or https://github.com/KoninMikhail/github-repo-template/blob/master/LICENSE
+# GITHUB:        https://github.com/KoninMikhail/
+# REPOSITORY:    https://github.com/KoninMikhail/github-repo-template
+# ISSUES:        https://github.com/KoninMikhail/github-repo-template/issues
+# MAIL:          dev.konin@gmail.com
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
 # SCRIPT WITH EXPORTED FUNCTIONS AND VARIABLES USED IN THE MAIN SETUP_TEMPLATE
@@ -38,7 +38,7 @@ center() {
 displayTestErrorTexts() {
   echo -e "${RED}X ERROR: The tests failed!${NC}. Please, make sure that you are running this script with its original scaffolding (folder/file) structure without any modification.${NC}"
   echo -e "You should try to 'git stash' your changes and execute this script from the project root again, or clone again the repository (the template) without any changes."
-  echo -e "Remember that your brand new repository should be created from here: ${BOLD}${UPURPLE}https://github.com/Josee9988/project-template/generate${NC}"
+  echo -e "Remember that your brand new repository should be created from here: ${BOLD}${UPURPLE}https://github.com/KoninMikhail/github-repo-template/generate${NC}"
   echo -e "\nThe program will now exit for you to check if this script is executed right when creating your new repository from the link above."
   echo -e "To omit this error and proceed please execute this script again with the flag '${GREEN}--omit-test-check${NC}'"
   echo -e "For more information about the script, use the '${BBLUE}--help${NC}' flag."
@@ -66,11 +66,11 @@ displayHelpTexts() { # (it will manually detect your git data and prompt for the
   echo -e "  bash $0 --projectType=Angular-Website --omit-commit --omit-verification"
   echo -e "  bash $0 --email=jgracia9988@gmail.com"
   echo -e "  bash $0 --username=whatever --projectName=whatever --email=whatever --projectType=whatever${NC}"
-  echo -e "  bash $0 -u=Josee9988 --projectType=Github-template --omit-commit${NC}\n"
+  echo -e "  bash $0 -u=KoninMikhail --projectType=Github-template --omit-commit${NC}\n"
 
   echo -e "The username, project-name and email are automatically gathered from your git repository and git config."
-  echo -e "Make sure you have ${BBLUE}read the documentation before executing${NC} this script: ${UPURPLE}https://github.com/Josee9988/project-template${NC}"
-  echo -e "If you have any questions or if any issue is found, please make sure to report it at: ${UPURPLE}https://github.com/Josee9988/project-template/issues${NC}"
+  echo -e "Make sure you have ${BBLUE}read the documentation before executing${NC} this script: ${UPURPLE}https://github.com/KoninMikhail/github-repo-template${NC}"
+  echo -e "If you have any questions or if any issue is found, please make sure to report it at: ${UPURPLE}https://github.com/KoninMikhail/github-repo-template/issues${NC}"
 }
 
 # Function that writes and parses variables to write the new generated README.md file
@@ -79,8 +79,8 @@ writeREADME() {
   bash -c "NEW_USERNAME='NEW_USERNAME' PROJECT_NAME='PROJECT_NAME' PROJECT_TYPE='PROJECT_TYPE'; cat << EOF > README.md
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
-# 🔥 **$NEW_USERNAME/$PROJECT_NAME**
-
+# **$NEW_USERNAME/$PROJECT_NAME**
+> Using it for fast creation new beautiful repository.
 <div align=\"center\">
   <!-- Change your logo -->
   <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME\">
@@ -153,7 +153,7 @@ By donating, you will help the development of this project, and *you will be fea
 
 ---
 
-$PROJECT_NAME was generated from *[Josee9988/project-template](https://github.com/Josee9988/project-template)* 📚
+$PROJECT_NAME was generated from *[KoninMikhail/github-repo-template](https://github.com/KoninMikhail/github-repo-template)* 📚
 
 ---
 
@@ -205,6 +205,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* The basic project structure from **[josee9988/project-template](https://github.com/Josee9988/project-template)**.
+* The basic project structure from **[KoninMikhail/github-repo-template](https://github.com/KoninMikhail/github-repo-template)**.
 EOF"
 }

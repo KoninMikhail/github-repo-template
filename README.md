@@ -1,22 +1,23 @@
 <!-- markdownlint-disable MD032 MD033-->
-# 🔥 **Josee9988's GitHub Project Template**
+# **Repository Project Template**
+> Using it for fast creation new beautiful repository.
 
 <p align="center">
-  <a href="https://github.com/Josee9988/project-template/generate">
-    <img width="100%" src="https://i.imgur.com/SVvgxJF.png" alt="@Josee9988/project-template's">
+  <a href="https://github.com/KoninMikhail/github-repo-template/generate">
+    <img width="100%" src="https://github.com/KoninMikhail/github-repo-template/blob/master/.resources/images/project_image.jpg" alt="@KoninMikhail/project-template's">
   </a>
   <br>
-  <a href="https://github.com/Josee9988/project-template/issues">
-    <img src="https://img.shields.io/github/issues/Josee9988/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@Josee9988/project-template's issues"/>
+  <a href="https://github.com/KoninMikhail/github-repo-template/issues">
+    <img src="https://img.shields.io/github/issues/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/project-template's issues"/>
   </a>
-  <a href="https://github.com/josee9988/project-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/Josee9988/project-template?color=0088ff&style=for-the-badge&logo=github" alt="@Josee9988/project-template's pull requests"/>
+  <a href="https://github.com/KoninMikhail/github-repo-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/project-template's pull requests"/>
   </a>
-  <a href="https://github.com/Josee9988/project-template/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@Josee9988/project-template link to create a new repository from the template">
+    <a href="https://case.mikekonin.com/social-analytics-dashboard-template/">
+       <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
-  <a href="https://github.com/Josee9988/project-template/actions/workflows/shelltest.yml">
-    <img src="https://github.com/Josee9988/project-template/actions/workflows/shelltest.yml/badge.svg" alt="@Josee9988/project-template's tests">
+  <a href="https://github.com/KoninMikhail/github-repo-template/generate">
+    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@KoninMikhail/project-template link to create a new repository from the template">
   </a>
 </p>
 
