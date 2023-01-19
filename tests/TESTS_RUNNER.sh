@@ -4,15 +4,15 @@
 # PURPOSE:       Main test script that will call all the individual unitary tests. Exit code 1 means an error in one
 #                or more tests were found; otherwise, the exit code will be 0.
 # TITLE:         TESTS_RUNNER
-# AUTHOR:        @Josee9988 | Jose Gracia
+# AUTHOR:        @KoninMikhail | Jose Gracia
 # VERSION:       See in ./../CHANGELOG.md
 # NOTES:         This script does not contain any test; it only calls all the tests one by one.
 # BASH_VERSION:  5.1.4(1)-release (x86_64-pc-linux-gnu)
-# LICENSE:       see in ../LICENSE (project root) or https://github.com/Josee9988/project-template/blob/master/LICENSE
-# GITHUB:        https://github.com/Josee9988/
-# REPOSITORY:    https://github.com/Josee9988/project-template
-# ISSUES:        https://github.com/Josee9988/project-template/issues
-# MAIL:          jgracia9988@gmail.com
+# LICENSE:       see in ../LICENSE (project root) or https://github.com/KoninMikhail/github-repo-template/blob/master/LICENSE
+# GITHUB:        https://github.com/KoninMikhail/
+# REPOSITORY:    https://github.com/KoninMikhail/github-repo-template
+# ISSUES:        https://github.com/KoninMikhail/github-repo-template/issues
+# MAIL:          dev.konin@gmail.com
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
 LGREEN='\033[0;32m'

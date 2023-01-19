@@ -4,23 +4,23 @@
 
 <p align="center">
   <a href="https://github.com/KoninMikhail/github-repo-template/generate">
-    <img width="100%" src="https://github.com/KoninMikhail/github-repo-template/blob/master/.resources/images/project_image.jpg" alt="@KoninMikhail/project-template's">
+    <img width="100%" src="https://github.com/KoninMikhail/github-repo-template/blob/master/.resources/images/project_image.jpg" alt="@KoninMikhail/github-repo-template's">
   </a>
   <br>
     <a href="#">
       <img src="https://img.shields.io/badge/build-alpha-blue?style=for-the-badge&color=critical" alt="@koninmikhail/social-analytics-dashboard-template current release">
    </a>
   <a href="https://github.com/KoninMikhail/github-repo-template/issues">
-    <img src="https://img.shields.io/github/issues/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/project-template's issues"/>
+    <img src="https://img.shields.io/github/issues/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/github-repo-template's issues"/>
   </a>
   <a href="https://github.com/KoninMikhail/github-repo-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/project-template's pull requests"/>
+    <img src="https://img.shields.io/github/issues-pr/KoninMikhail/github-repo-template?color=0088ff&style=for-the-badge&logo=github" alt="@KoninMikhail/github-repo-template's pull requests"/>
   </a>
     <a href="https://case.mikekonin.com/social-analytics-dashboard-template/">
        <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
   <a href="https://github.com/KoninMikhail/github-repo-template/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@KoninMikhail/project-template link to create a new repository from the template">
+    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@KoninMikhail/github-repo-template link to create a new repository from the template">
   </a>
 </p>
 
@@ -34,7 +34,7 @@
 * Manage your issues with **20 issue labels** created just for you!
 * Make your _community healthier_ with all the guides like code of conduct, contributing, support, security...
 * Learn more with the [official GitHub guide on creating repositories from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-* To start using it; "**[click use this template](https://github.com/Josee9988/project-template/generate)**" and create your new repository,
+* To start using it; "**[click use this template](https://github.com/KoninMikhail/github-repo-template/generate)**" and create your new repository,
 * All the basic setup is made through an easy script that will auto-detect all your data to make it lightning fast! 🗲🗲 Clone your new repository and execute the `SETUP_TEMPLATE.sh` shell script to personalize the files with your private details. Check how to run it [here](https://asciinema.org/a/425259).
 * All the markdown follows ["MarkdownLint" rules](https://github.com/DavidAnson/markdownlint).
 
@@ -42,10 +42,10 @@
 
 ## ⚡ **Installation**
 
-1. To create a new repository from this template, **[generate your new repository from this template](https://github.com/Josee9988/project-template/generate)**;
+1. To create a new repository from this template, **[generate your new repository from this template](https://github.com/KoninMikhail/github-repo-template/generate)**;
 for more information or guidance, follow the [GitHub guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
-2. Install the [🤖 used GitHub bots](https://github.com/Josee9988/project-template#-used-github-bots) (recommended)
-3. Clone your new repository **[generated from this template](https://github.com/Josee9988/project-template/generate)** and `cd` into it.
+2. Install the [🤖 used GitHub bots](https://github.com/KoninMikhail/github-repo-template#-used-github-bots) (recommended)
+3. Clone your new repository **[generated from this template](https://github.com/KoninMikhail/github-repo-template/generate)** and `cd` into it.
 4. **Execute** the `SETUP_TEMPLATE.sh` shell script to **customize** the files with your data.
 
     ```bash
@@ -136,7 +136,7 @@ Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not s
 
 ## 📝 **Additional notes**
 
-* After **[generating your new repo with this template](https://github.com/Josee9988/project-template/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
+* After **[generating your new repo with this template](https://github.com/KoninMikhail/github-repo-template/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
 
 * Then, after 'cloning' the repository you will be presented with all the files modified with your project details and information. It is essential to **manually review every file** to check if it fits your requirements and performs any necessary changes to customize the project as you want.
 
@@ -179,7 +179,7 @@ Badges and texts will be replaced with your project details!
 <p align="center">
   <img width="70%" height="70%" src="https://i.imgur.com/dKKh53K.png" alt="README.md template.">
 
-  Or watch [this video](https://gifs.com/gif/josee9988-s-readme-md-MwO5E3) to see the whole README template.
+  Or watch [this video](https://gifs.com/gif/KoninMikhail-s-readme-md-MwO5E3) to see the whole README template.
 </p>
 
 ### 🔖 The labels for your issues
@@ -214,10 +214,10 @@ If the bot [probot-settings](https://probot.github.io/apps/settings/) is not ins
 
 ## 🕵️ **Extra recommendations**
 
-For the proper maintenance of the CHANGELOG.md, we recommend this [VSCode extension](https://github.com/Josee9988/Changelog-and-Markdown-snippets)
+For the proper maintenance of the CHANGELOG.md, we recommend this [VSCode extension](https://github.com/KoninMikhail/Changelog-and-Markdown-snippets)
 and the read and understanding of the [keep a changelog guide](https://keepachangelog.com/en/1.0.0/).
-Please read and comment about it in this [dev.to post](https://dev.to/josee9988/the-ultimate-github-project-template-1264).
-We also recommend installing all the [used bots](https://github.com/Josee9988/project-template#-used-github-bots).
+Please read and comment about it in this [dev.to post](https://dev.to/KoninMikhail/the-ultimate-github-project-template-1264).
+We also recommend installing all the [used bots](https://github.com/KoninMikhail/github-repo-template#-used-github-bots).
 
 ## 💉 **Project tests**
 
@@ -233,31 +233,31 @@ bash tests/TESTS_RUNNER.sh
 
 ## 🍰 **Supporters and donators**
 
-<a href="https://github.com/Josee9988/project-template/generate">
-  <img alt="@Josee9988/project-template's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
+<a href="https://github.com/KoninMikhail/github-repo-template/generate">
+  <img alt="@KoninMikhail/github-repo-template's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
 </a>
 
 We are currently looking for new donators to help and maintain this project! ❤️
 
 By donating, you will help the development of this project, and *you will be featured in this project's README.md*, so everyone can see your kindness and visit your content ⭐.
 
-<a href="https://github.com/sponsors/Josee9988">
-  <img alt="project logo" src="https://img.shields.io/badge/Sponsor-Josee9988/project template-blue?logo=github-sponsors&style=for-the-badge&color=red">
+<a href="https://github.com/sponsors/KoninMikhail">
+  <img alt="project logo" src="https://img.shields.io/badge/Sponsor-KoninMikhail/project template-blue?logo=github-sponsors&style=for-the-badge&color=red">
 </a>
 
 ---
 
 ## 🎉 Was the template helpful? Please help us raise these numbers up
 
-[![GitHub's followers](https://img.shields.io/github/followers/Josee9988.svg?style=social)](https://github.com/Josee9988)
-[![GitHub stars](https://img.shields.io/github/stars/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/Josee9988/project-template.svg?style=social)](https://github.com/Josee9988/project-template/network/members)
+[![GitHub's followers](https://img.shields.io/github/followers/KoninMikhail.svg?style=social)](https://github.com/KoninMikhail)
+[![GitHub stars](https://img.shields.io/github/stars/KoninMikhail/github-repo-template.svg?style=social)](https://github.com/KoninMikhail/github-repo-template/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/KoninMikhail/github-repo-template.svg?style=social)](https://github.com/KoninMikhail/github-repo-template/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/KoninMikhail/github-repo-template.svg?style=social)](https://github.com/KoninMikhail/github-repo-template/network/members)
 
 Enjoy! 😃
 
 > ⚠️ Remember that this template should be reviewed and modified to fit your requirements.
-> The script **SETUP_TEMPLATE.sh** should be executed right when you clone your new repository generated from [here](https://github.com/Josee9988/project-template/generate).
+> The script **SETUP_TEMPLATE.sh** should be executed right when you clone your new repository generated from [here](https://github.com/KoninMikhail/pgithub-repo-template/generate).
 > There will be files that will need *manual revision* ⚠️
 
-_Made with a lot of ❤️❤️ by **[@Josee9988](https://github.com/Josee9988)**_
+_Made with a lot of ❤️❤️ by **[@KoninMikhail](https://github.com/KoninMikhail)**_

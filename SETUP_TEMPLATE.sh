@@ -3,23 +3,23 @@
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 # SCRIPT:        SETUP_TEMPLATE.sh
 # USAGE:         bash SETUP_TEMPLATE.sh | ./SETUP_TEMPLATE.sh
-# PURPOSE:       Shell script that setups the @Josee9988/project-template GitHub project template.
+# PURPOSE:       Shell script that setups the @KoninMikhail/github-repo-template GitHub project template.
 #                It detects the user's GitHub username, email and project name,
 #                and then prompts for the type of project that it is. All the data can be manually specified using
 #                the script optional arguments. For more information, please execute the script with the '--help' flag.
 #                After it will customize all the files with the user's data and remove some files and folders,
 #                even this own script.
 # TITLE:         SETUP_TEMPLATE
-# AUTHOR:        @Josee9988
+# AUTHOR:        @KoninMikhail
 # VERSION:       See in CHANGELOG.md or in variable 'SCRIPT_VERSION'.
 # NOTES:         This script will auto remove itself, and if you want to rerun it, the user must download
 #                it again or do a 'git stash' and revert the changes.
 # BASH_VERSION:  5.1.4(1)-release (x86_64-pc-linux-gnu)
-# LICENSE:       see in LICENSE (project root) or https://github.com/Josee9988/project-template/blob/master/LICENSE
-# GITHUB:        https://github.com/Josee9988/
-# REPOSITORY:    https://github.com/Josee9988/project-template
-# ISSUES:        https://github.com/Josee9988/project-template/issues
-# MAIL:          jgracia9988@gmail.com
+# LICENSE:       see in LICENSE (project root) or https://github.com/KoninMikhail/github-repo-template/blob/master/LICENSE
+# GITHUB:        https://github.com/KoninMikhail/
+# REPOSITORY:    https://github.com/KoninMikhail/github-repo-template
+# ISSUES:        https://github.com/KoninMikhail/github-repo-template/issues
+# MAIL:          dev.konin@gmail.com
 #~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#
 
 RED='\033[1;31m'                                     # color red
@@ -99,8 +99,8 @@ for i in "$@"; do
   esac
 done
 
-echo -e "Thanks for using ${GREEN}@Josee9988/project-template${NC}"
-echo -e "Read all the documentation carefully before you continue executing this script: ${UPURPLE}https://github.com/Josee9988/project-template${NC}\n"
+echo -e "Thanks for using ${GREEN}@KoninMikhail/github-repo-template${NC}"
+echo -e "Read all the documentation carefully before you continue executing this script: ${UPURPLE}https://github.com/KoninMikhail/github-repo-template${NC}\n"
 
 bash tests/TESTS_RUNNER.sh >/dev/null 2>&1 # PERFORM the TESTS
 
@@ -126,10 +126,10 @@ y | Y)
   center "Setting everything up for you ;)"
 
   # replace the username and email
-  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/Josee9988/${NEW_USERNAME}/g"
-  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/jgracia9988@gmail.com/${NEW_EMAIL}/g"
-  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/project-template/${PROJECT_NAME}/g"
-  find .gitignore -type f -name "*" -print0 | xargs -0 sed -i "s/Josee9988\/project-template/${NEW_USERNAME}\/${PROJECT_NAME}/g"
+  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/KoninMikhail/${NEW_USERNAME}/g"
+  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/dev.konin@gmail.com/${NEW_EMAIL}/g"
+  find .github/ -type f -name "*" -print0 | xargs -0 sed -i "s/github-repo-template/${PROJECT_NAME}/g"
+  find .gitignore -type f -name "*" -print0 | xargs -0 sed -i "s/KoninMikhail\/github-repo-template/${NEW_USERNAME}\/${PROJECT_NAME}/g"
 
   rm LICENSE 2>/dev/null || :                                 # remove the license
   rm -r bin/ 2>/dev/null || :                                 # remove the bin folder
@@ -143,7 +143,7 @@ y | Y)
     git add CHANGELOG.md README.md .gitignore .github SETUP_TEMPLATE.sh LICENSE bin tests # commit the new files
     git -c color.status=always status | less -REX                                         # show git status with colours
     echo -e "Committing the changes for you :)\n"
-    git commit -m "📝 Set up '@Josee9988/project-template' template: Personalized files by executing the SETUP_TEMPLATE.sh script.🚀"
+    git commit -m "Initial commit."
     echo -e "\nRemember to review every file and customize it as you like.\nYou are ready to start your brand new awesome project🚀🚀." else
   fi
 

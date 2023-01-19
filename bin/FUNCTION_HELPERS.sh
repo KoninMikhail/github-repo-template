@@ -4,7 +4,7 @@
 # PURPOSE:       Secondary (helper) script that is called by the main SETUP_TEMPLATE.sh file to call
 #                some functions and obtain some exported variables to better modularize the code.
 # TITLE:         FUNCTION_HELPERS
-# AUTHOR:        @Josee9988 | Jose Gracia, @KoninMikhail | Mike Konin
+# AUTHOR:        @KoninMikhail | Jose Gracia, @KoninMikhail | Mike Konin
 # VERSION:       See in CHANGELOG.md
 # NOTES:         This script will auto remove itself, and in case of wanting to run it again, the user must download
 #                it again or do a 'git stash' and revert the changes.
@@ -51,6 +51,7 @@ displayHelpTexts() { # (it will manually detect your git data and prompt for the
 
   echo -e "${BOLD}Optional arguments and flags:${NC}"
   echo -e "  ${CYAN}-u, --username, --name${NC}\t\tManually specify the GitHub username instead of the autodetected username."
+  echo -e "  ${CYAN}-p, --project, --project-name${NC}\t\tManually specify the GitHub project name instead of the autodetected."
   echo -e "  ${CYAN}-e, --email, --mail${NC}\t\t\tManually specify the GitHub email instead of the autodetected mail."
   echo -e "  ${CYAN}-t, --projectType, --type${NC}\t\tManually specify the type of project (what it is, eg: npm package or website or whatever) instead of being prompted inside the script."
   echo -e "  ${CYAN}-h, --help, --info${NC}\t\t\t(${BOLD}${DGRAY}FLAG${NC}) Displays this help text."
@@ -64,9 +65,10 @@ displayHelpTexts() { # (it will manually detect your git data and prompt for the
   echo -e "  bash $0"
   echo -e "  bash $0 -h"
   echo -e "  bash $0 --projectType=Angular-Website --omit-commit --omit-verification"
-  echo -e "  bash $0 --email=jgracia9988@gmail.com"
+  echo -e "  bash $0 --email=dev.konin@gmail.com"
   echo -e "  bash $0 --username=whatever --projectName=whatever --email=whatever --projectType=whatever${NC}"
   echo -e "  bash $0 -u=KoninMikhail --projectType=Github-template --omit-commit${NC}\n"
+   echo -e "  bash $0 -u=KoninMikhail --p=github-repo-template --omit-commit${NC}\n"
 
   echo -e "The username, project-name and email are automatically gathered from your git repository and git config."
   echo -e "Make sure you have ${BBLUE}read the documentation before executing${NC} this script: ${UPURPLE}https://github.com/KoninMikhail/github-repo-template${NC}"
@@ -80,7 +82,7 @@ writeREADME() {
   bash -c "NEW_USERNAME='NEW_USERNAME' PROJECT_NAME='PROJECT_NAME' PROJECT_TYPE='PROJECT_TYPE'; cat << EOF > README.md
 <!-- markdownlint-disable MD032 MD033-->
 <!-- Write your README.md file. Build something amazing! This README.md template can guide you to build your project documentation, but feel free to modify it as you wish 🥰 -->
-# **$NEW_USERNAME/$PROJECT_NAME**
+# **Repository Project Template**
 > Using it for fast creation new beautiful repository.
 <div align=\"center\">
   <!-- Change your logo -->
@@ -148,7 +150,7 @@ writeREADME() {
 
 <br /><br />
 
-<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/contributors.png\" width=\"50px\" />
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icons/contributors.png\" width=\"50px\" />
 
 ## Contributors
 I am <3 contributions big or small. If you help my project --> 🍰**link to your profile will be here**🍰.
@@ -159,11 +161,11 @@ I am <3 contributions big or small. If you help my project --> 🍰**link to you
 
 <br /><br />
 
-<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/coffee.png\" width=\"50px\" />
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icons/coffee.png\" width=\"50px\" />
 
 ## Buy Me A Coffee
 <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/generate\">
-  <img alt=\"@koninmikhail/Social Analytics Dashboard Template Author brand logo without text\" align=\"right\" src=\"https://raw.githubusercontent.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/logo.png\" width=\"25%\" />
+  <img alt=\"@koninmikhail/Social Analytics Dashboard Template Author brand logo without text\" align=\"right\" src=\"https://github.com/s$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/logo.png\" width=\"25%\" />
 </a>
 
 Currently I'm seeking for new sponsors to help maintain this project! ❤️
@@ -183,7 +185,7 @@ With every donation you make - you're helping with development of this project. 
 
 <br /><br />
 
-<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icon/law.png\" width=\"50px\" />
+<img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icons/law.png\" width=\"50px\" />
 
 ## **License and Changelog**
 
