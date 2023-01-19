@@ -90,12 +90,6 @@ writeREADME() {
     <img width=\"100%\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg\" alt=\"@$NEW_USERNAME/$PROJECT_NAME's logo\">
   </a>
   <br>
-  <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues\">
-    <img src=\"https://img.shields.io/github/issues/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\" alt=\"$NEW_USERNAME/$PROJECT_NAME's issues\"/>
-  </a>
-  <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/pulls\">
-    <img src=\"https://img.shields.io/github/issues-pr/$NEW_USERNAME/$PROJECT_NAME?color=0088ff&style=for-the-badge&logo=github\"  alt=\"$NEW_USERNAME/$PROJECT_NAME's pull requests\"/>
-  </a>
   <a href=\"#\">
     <img src=\"https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess\" alt=\"$NEW_USERNAME/$PROJECT_NAME\">
      </a>
@@ -131,7 +125,7 @@ writeREADME() {
 <br />
 
 ![project screenshot first](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg)
-![[project screenshot second](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpgg)
+![[project screenshot second](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg)
 
 <br /><br />
 

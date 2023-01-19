@@ -7,6 +7,7 @@
     <img width="100%" src="https://github.com/KoninMikhail/github-repo-template/blob/master/.resources/images/project_image.jpg" alt="@KoninMikhail/github-repo-template's">
   </a>
   <br>
+
     <a href="#">
       <img src="https://img.shields.io/badge/build-alpha-blue?style=for-the-badge&color=critical" alt="@koninmikhail/social-analytics-dashboard-template current release">
    </a>
