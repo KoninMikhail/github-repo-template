@@ -25,8 +25,6 @@
   </a>
 </p>
 
-<br />
-
 # **What is this template all about?**
 
 * This template can be used as a base layer for any of your future repositories/projects.
