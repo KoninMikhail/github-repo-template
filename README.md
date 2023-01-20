@@ -37,9 +37,12 @@
 * All the basic setup is made through an easy script that will auto-detect all your data to make it lightning fast! 🗲🗲 Clone your new repository and execute the `SETUP_TEMPLATE.sh` shell script to personalize the files with your private details. Check how to run it [here](https://asciinema.org/a/425259).
 * All the markdown follows ["MarkdownLint" rules](https://github.com/DavidAnson/markdownlint).
 
----
 
-## ⚡ **Installation**
+<br /><br />
+
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/github-repo-template/master/.resources/icons/qs.png" width="50px" />
+
+##  **Installation**
 
 1. To create a new repository from this template, **[generate your new repository from this template](https://github.com/KoninMikhail/github-repo-template/generate)**;
 for more information or guidance, follow the [GitHub guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
@@ -66,9 +69,11 @@ for more information or guidance, follow the [GitHub guide](https://docs.github.
 
 ⚠️ _Customize every file to fit your requirements_ ⚠️
 
----
+<br /><br />
 
-## 📚 **What does it include?**
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/icons/features.png" width="50px" />
+
+## **What does it include?**
 
 1. A **`SETUP_TEMPLATE.sh`** script that **MUST be executed right when you clone your repository**.
 The script will customize all the data with yours in all the files.
@@ -95,11 +100,13 @@ The script will customize all the data with yours in all the files.
          8. A [Security report issue template](/.github/ISSUE_TEMPLATE/6-security-report.md).
          9. A [Question or support issue template](/.github/ISSUE_TEMPLATE/7-question-support.md).
 
----
+<br /><br />
 
-### 🌲 **Project tree**
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/icons/tree.png" width="50px" />
 
-Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not shown! 🙈
+## **Project tree**
+
+> Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not shown! 🙈
 
 ```text
 .
@@ -131,9 +138,12 @@ Files that will get removed after the execution of `SETUP_TEMPLATE.sh` are not s
 2 directories, 22 files
 ```
 
----
 
-## 📝 **Additional notes**
+<br /><br />
+
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/github-repo-template/master/.resources/icons/contributors.png" width="50px" />
+
+## **Additional notes**
 
 * After **[generating your new repo with this template](https://github.com/KoninMikhail/github-repo-template/generate)**, make sure to, right after you clone it, run the script `SETUP_TEMPLATE.sh`.
 
@@ -153,11 +163,13 @@ We sincerely recommend at least installing the [issue label bot](https://github.
 2. The `settings.yml` file depends on the **[settings label bot](https://probot.github.io/apps/settings/)** (optional).
 3. The `config.yml` file depends on the bot **[welcome bot](https://probot.github.io/apps/welcome/)** and **[to-do bot](https://probot.github.io/apps/todo/)** (optional).
 
----
+<br /><br />
 
-## 📸 **Screenshots**
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/icons/screenshots.png" width="50px" />
 
-A couple of screenshots to delight you before you use this template.
+## **Screenshots**
+
+> A couple of screenshots to delight you before you use this template.
 
 ### 🔺 All the issue templates
 
@@ -209,16 +221,22 @@ If the bot [probot-settings](https://probot.github.io/apps/settings/) is not ins
   <img width="70%" height="70%" src="https://i.imgur.com/kRt3lPs.png" alt="Community profile.">
 </p>
 
----
+<br /><br />
 
-## 🕵️ **Extra recommendations**
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/github-repo-template/master/.resources/icons/template.png" width="50px" />
+
+## **Extra recommendations**
 
 For the proper maintenance of the CHANGELOG.md, we recommend this [VSCode extension](https://github.com/KoninMikhail/Changelog-and-Markdown-snippets)
 and the read and understanding of the [keep a changelog guide](https://keepachangelog.com/en/1.0.0/).
 Please read and comment about it in this [dev.to post](https://dev.to/KoninMikhail/the-ultimate-github-project-template-1264).
 We also recommend installing all the [used bots](https://github.com/KoninMikhail/github-repo-template#-used-github-bots).
 
-## 💉 **Project tests**
+<br /><br />
+
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/icons/tests.png" width="50px" />
+
+## **Project tests**
 
 If you want to improve the development of this project, you must, after changing or improving whatever, run the project's tests to prove that they are working.
 
@@ -228,9 +246,11 @@ To do so:
 bash tests/TESTS_RUNNER.sh
 ```
 
----
+<br /><br />
 
-## 🍰 **Supporters and donators**
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/icons/coffee.png" width="50px" />
+
+## **Supporters and donators**
 
 <a href="https://github.com/KoninMikhail/github-repo-template/generate">
   <img alt="@KoninMikhail/github-repo-template's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
