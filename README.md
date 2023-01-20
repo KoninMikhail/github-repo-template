@@ -189,7 +189,7 @@ We sincerely recommend at least installing the [issue label bot](https://github.
 Badges and texts will be replaced with your project details!
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/readme_screenshot.jpg" alt="README.md template.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/readme_screenshot.jpg" alt="README.md template.">
 
   Or watch [this video](https://gifs.com/gif/KoninMikhail-s-readme-md-MwO5E3) to see the whole README template.
 </p>
