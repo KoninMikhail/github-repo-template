@@ -11,6 +11,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Changed
 * Readme.md partition icons.
 
+### FIX
+* image files in template
+
 ---
 ## [**1.0.0**] - 2023-01-19
 

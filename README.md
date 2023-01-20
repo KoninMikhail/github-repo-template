@@ -67,7 +67,7 @@ for more information or guidance, follow the [GitHub guide](https://docs.github.
 5. **Review** every single file and **customize** it as you like.
 6. Build your project. 🚀
 
-⚠️ _Customize every file to fit your requirements_ ⚠️
+>⚠️ _If you have empty information, please use manual installation with params._ ⚠️
 
 <br /><br />
 
@@ -174,14 +174,15 @@ We sincerely recommend at least installing the [issue label bot](https://github.
 ### 🔺 All the issue templates
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/SDJixBz.png" alt="All the issue templates.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues.jpg" alt="All the issue templates.">
 </p>
 
 ### 🔻 An issue template opened
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/r5AiLWu.png" alt="Bug issue template opened.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues_opened.jpg" alt="Issue template opened.">
 </p>
+<br/>
 
 ### 📘 The README template
 
@@ -198,7 +199,7 @@ Badges and texts will be replaced with your project details!
 If the bot [probot-settings](https://probot.github.io/apps/settings/) is not installed you will not have these beautiful labels! (there are more issue labels than in the image!)
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
+  <img width="100%" height="100%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
 </p>
 
 ### 📝 The CHANGELOG template

@@ -135,6 +135,7 @@ y | Y)
   rm -r bin/ 2>/dev/null || :                                 # remove the bin folder
   rm -r tests/ 2>/dev/null || :                               # remove the tests folder
   rm -r .github/workflows/ 2>/dev/null || :                   # remove the workflow folder
+  rm -r .resources/screenshots/ 2>/dev/null || :              # screenshots the bin folder
   writeREADME                                                 # write the new README.md
   writeCHANGELOG                                              # write the basic structure of the CHANGELOG.md
   echo -e "# add your own funding links" >.github/FUNDING.yml # remove author's custom funding links

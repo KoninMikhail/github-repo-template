@@ -122,11 +122,6 @@ writeREADME() {
 >The data from repository is provided an 'As is', without any guarantees. All the data provided is used at your own risk.
 **If you want report a bug** - use [issue](https://github.com/$NEW_USERNAME/$PROJECT_NAME/issues)
 
-<br />
-
-![project screenshot first](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg)
-![[project screenshot second](https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/project_image.jpg)
-
 <br /><br />
 
 <img align=\"left\" src=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/icons/menu.png\" width=\"50px\" />
@@ -159,7 +154,7 @@ I am <3 contributions big or small. If you help my project --> 🍰**link to you
 
 ## Buy Me A Coffee
 <a href=\"https://github.com/$NEW_USERNAME/$PROJECT_NAME/generate\">
-  <img alt=\"@koninmikhail/Social Analytics Dashboard Template Author brand logo without text\" align=\"right\" src=\"https://github.com/s$NEW_USERNAME/$PROJECT_NAME/blob/master/.resources/images/logo.png\" width=\"25%\" />
+  <img alt=\"$NEW_USERNAME/$PROJECT_NAME Author brand logo without text\" align=\"right\" src=\"https://raw.githubusercontent.com/$NEW_USERNAME/$PROJECT_NAME/master/.resources/images/logo.png\" width=\"25%\" />
 </a>
 
 Currently I'm seeking for new sponsors to help maintain this project! ❤️
