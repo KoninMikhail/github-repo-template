@@ -174,13 +174,13 @@ We sincerely recommend at least installing the [issue label bot](https://github.
 ### 🔺 All the issue templates
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues.jpg" alt="All the issue templates.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues.jpg" alt="All the issue templates.">
 </p>
 
 ### 🔻 An issue template opened
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues_opened.jpg" alt="Issue template opened.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/issues_opened.jpg" alt="Issue template opened.">
 </p>
 <br/>
 
@@ -199,7 +199,7 @@ Badges and texts will be replaced with your project details!
 If the bot [probot-settings](https://probot.github.io/apps/settings/) is not installed you will not have these beautiful labels! (there are more issue labels than in the image!)
 
 <p align="center">
-  <img width="100%" height="100%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
+  <img width="85%" height="85%" src="https://i.imgur.com/dS91k6R.png" alt="LABELS">
 </p>
 
 ### 📝 The CHANGELOG template
@@ -207,19 +207,19 @@ If the bot [probot-settings](https://probot.github.io/apps/settings/) is not ins
 (project name and project type will be replaced with yours)
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/changelog.jpg" alt="CHANGELOG.md template.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/changelog.jpg" alt="CHANGELOG.md template.">
 </p>
 
 ### 🛡️ Security policy
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/security.jpg" alt="Security issue.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/security.jpg" alt="Security issue.">
 </p>
 
 ### 💼 Community profile at 100%
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/community.jpg" alt="Community profile.">
+  <img width="85%" height="85%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/community.jpg" alt="Community profile.">
 </p>
 
 <br /><br />
