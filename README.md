@@ -67,7 +67,7 @@ for more information or guidance, follow the [GitHub guide](https://docs.github.
 5. **Review** every single file and **customize** it as you like.
 6. Build your project. 🚀
 
->⚠️ _If you have empty information, please use manual installation with params._ ⚠️
+>⚠️ _If you have empty fields , please use manual installation with params._ ⚠️
 
 <br /><br />
 
