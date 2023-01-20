@@ -110,32 +110,50 @@ The script will customize all the data with yours in all the files.
 
 ```text
 .
-├── CHANGELOG.md
-├── .github
-│   ├── CODE_OF_CONDUCT.md
-│   ├── CODEOWNERS
-│   ├── config.yml
-│   ├── CONTRIBUTING.md
-│   ├── FUNDING.yml
-│   ├── issue_label_bot.yaml
-│   ├── ISSUE_TEMPLATE
-│   │   ├── 1-bug-report.md
-│   │   ├── 2-failing-test.md
-│   │   ├── 3-docs-bug.md
-│   │   ├── 4-feature-request.md
-│   │   ├── 5-enhancement-request.md
-│   │   ├── 6-security-report.md
-│   │   ├── 7-question-support.md
-│   │   └── config.yml
-│   ├── ISSUE_TEMPLATE.md
-│   ├── pull_request_template.md
-│   ├── SECURITY.md
-│   ├── settings.yml
-│   └── SUPPORT.md
-├── .gitignore
-└── README.md
+|-- .github
+|   |               `-- CODEOWNERS
+|   |               `-- CODE_OF_CONDUCT.md
+|   |               `-- CONTRIBUTING.md
+|   |               `-- FUNDING.yml
+|   |               `-- ISSUE_TEMPLATE
+|   |   |           `-- 1-bug-report.md
+|   |   |           `-- 2-failing-test.md
+|   |   |           `-- 3-docs-bug.md
+|   |   |           `-- 4-feature-request.md
+|   |   |           `-- 5-enhancement-request.md
+|   |   |           `-- 6-security-report.md
+|   |   |           `-- 7-question-support.md
+|   |               `-- config.yml
+|   |-- ISSUE_TEMPLATE.md
+|   |-- SECURITY.md
+|   |-- SUPPORT.md
+|   |-- config.yml
+|   |-- issue_label_bot.yaml
+|   |-- pull_request_template.md
+|   `-- settings.yml
+|-- .gitignore
+|-- .resources
+|   |-- icons
+|   |   |           `-- coffee.png
+|   |   |           `-- contributors.png
+|   |   |           `-- docs.png
+|   |   |           `-- features.png
+|   |   |           `-- law.png
+|   |   |           `-- menu.png
+|   |   |           `-- qs.png
+|   |   |           `-- screenshots.png
+|   |   |           `-- template.png
+|   |   |           `-- tests.png
+|   |   |           `-- tree.png
+|   |               `-- wtf.png
+|   `-- images
+|       |           `-- logo.png
+|       |           `-- project_image.jpg
+|                   `-- sponsor.svg
+|-- CHANGELOG.md
+`-- README.md
 
-2 directories, 22 files
+5 directories, 37 files
 ```
 
 
