@@ -32,7 +32,7 @@ PROJECT_TYPE="repository" # default value if not specified
 will_omit_verification=false
 will_omit_commit=false
 will_omit_test=false
-SCRIPT_VERSION="1.11.8"
+SCRIPT_VERSION="1.0.1"
 
 FILE_FUNCTION_HELPERS=bin/FUNCTION_HELPERS.sh
 
