@@ -189,7 +189,7 @@ We sincerely recommend at least installing the [issue label bot](https://github.
 Badges and texts will be replaced with your project details!
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/dKKh53K.png" alt="README.md template.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/readme_screenshot.jpg" alt="README.md template.">
 
   Or watch [this video](https://gifs.com/gif/KoninMikhail-s-readme-md-MwO5E3) to see the whole README template.
 </p>
@@ -207,19 +207,19 @@ If the bot [probot-settings](https://probot.github.io/apps/settings/) is not ins
 (project name and project type will be replaced with yours)
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/ScWgQKI.png" alt="CHANGELOG.md template.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/changelog.jpg" alt="CHANGELOG.md template.">
 </p>
 
 ### 🛡️ Security policy
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/ArwDQTi.png" alt="Security issue.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/security.jpg" alt="Security issue.">
 </p>
 
 ### 💼 Community profile at 100%
 
 <p align="center">
-  <img width="70%" height="70%" src="https://i.imgur.com/kRt3lPs.png" alt="Community profile.">
+  <img width="100%" height="100%" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/screenshots/community.jpg" alt="Community profile.">
 </p>
 
 <br /><br />
@@ -254,7 +254,7 @@ bash tests/TESTS_RUNNER.sh
 ## **Supporters and donators**
 
 <a href="https://github.com/KoninMikhail/github-repo-template/generate">
-  <img alt="@KoninMikhail/github-repo-template's brand logo without text" align="right" src="https://i.imgur.com/3qK1sie.png" width="18%" />
+  <img alt="@KoninMikhail/github-repo-template's brand logo without text" align="right" src="https://raw.githubusercontent.com/KoninMikhail//github-repo-template/master/.resources/images/logo.png" width="18%" />
 </a>
 
 We are currently looking for new donators to help and maintain this project! ❤️
