@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD032 MD033-->
 # **Repository Project Template**
-> Using it for fast creation new beautiful repository.
+> My repo template based on @Josee9988 script
 
 <p align="center">
   <a href="https://github.com/KoninMikhail/github-repo-template/generate">
